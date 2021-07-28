@@ -1,0 +1,94 @@
+.settings {
+  display: flex;
+  background-color: #e4e4e4;
+}
+
+.settings-container {
+  flex: 9;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+}
+
+.settings-titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.settings-upload-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.settings-delete-title {
+  align-self: center;
+  font-size: 0.9rem;
+  color: rgb(192, 34, 34);
+  cursor: pointer;
+}
+.settings-delete-title:hover {
+  color: rgb(223, 71, 71);
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.settings-label {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  margin-left: 1rem;
+}
+
+.settings-img {
+  width: 9rem;
+  height: 9rem;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-left: 1rem;
+}
+
+.settings-img-label {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 10rem;
+  cursor: pointer;
+}
+.settings-img-label:hover {
+  color: rgb(59, 58, 58);
+}
+
+.settings-input {
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+  border: none;
+  border-bottom: 2px solid rgb(168, 167, 167);
+  background-color: #e4e4e4;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.settings-input:focus {
+  outline: none;
+}
+
+.settings-submit {
+  background-color: #3adbb3;
+  color: rgb(27, 27, 27);
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 5rem;
+  align-self: center;
+  margin-top: 1.5rem;
+}
+.settings-submit:hover {
+  background-color: #3ee7bd;
+}

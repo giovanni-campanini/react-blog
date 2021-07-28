@@ -1,0 +1,88 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: calc(100vh - 65px);
+  background: linear-gradient(
+      rgba(116, 115, 115, 0.4),
+      rgba(179, 178, 178, 0.4)
+    ),
+    url("https://images.pexels.com/photos/4926899/pexels-photo-4926899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  font-family: "Merriweather", serif;
+  padding-top: 2rem;
+  position: relative;
+}
+
+.register-title {
+  align-self: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.register-form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem;
+}
+
+.register-label,
+.register-input {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.register-label {
+  font-weight: 700;
+}
+
+.register-input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Merriweather", serif;
+}
+.register-input:focus {
+  outline: none;
+}
+
+.register-log-button {
+  font-family: "Merriweather", serif;
+  background-color: #3adbb3;
+  color: rgb(27, 27, 27);
+  border-radius: 15px;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  width: 6rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.register-log-button:hover {
+  background-color: #3ee7bd;
+}
+
+.register-reg-button {
+  font-family: "Merriweather", serif;
+  background-color: #f8564afa;
+  color: rgb(27, 27, 27);
+  border-radius: 15px;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  width: 6rem;
+  align-self: center;
+  margin: 1rem;
+}
+
+.register-reg-button:hover {
+  background-color: #f88a4afa;
+}

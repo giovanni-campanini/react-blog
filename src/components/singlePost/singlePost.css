@@ -1,0 +1,75 @@
+.single-post {
+  flex: 9;
+  font-family: "Noto Sans JP", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.single-img {
+  width: 95%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.single-title {
+  text-align: center;
+  font-size: 1.7em;
+  font-family: "STIX Two Math", serif;
+  letter-spacing: 0.5px;
+}
+
+.single-edit {
+  display: flex;
+  float: right;
+  justify-content: center;
+  align-content: center;
+  gap: 0.8rem;
+}
+
+.single-edit-icon {
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: auto;
+}
+.single-edit-icon:hover {
+  color: rgb(82, 95, 99);
+}
+
+.single-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 2rem 1rem;
+}
+
+.single-author {
+  color: rgb(20, 22, 22);
+  margin-left: 10px;
+}
+
+.single-date {
+  font-style: italic;
+  color: rgb(82, 95, 99);
+}
+
+.single-text {
+  width: 95%;
+  margin-left: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgb(20, 22, 22);
+}
+
+.single-text::first-letter {
+  margin-left: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+}
